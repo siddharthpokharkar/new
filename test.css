@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    
+  background-image: url('Aug20_06_84753778.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    background-color: #513f3f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(28, 148, 4, 0.1);
+}
+h1 {
+    text-align: center;
+}
+form {
+    display: flex;
+    gap: 10px;
+}
+input[type="text"], input[type="date"], button {
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #47093a;
+    border-radius: 4px;
+}
+button {
+    background-color: #0c5b0e;
+    color: rgb(5, 5, 166);
+    border: none;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
